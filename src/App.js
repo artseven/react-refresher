@@ -1,13 +1,10 @@
 import Header from './components/Header'
-function App() {
-  const name = 'Art'
-  const x = false
 
+function App() {
   return (
     <div className="container">
-      <Header />
+      <Header title="Hello" />
     </div>
-    
   );
 }
 
