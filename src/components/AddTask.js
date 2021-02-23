@@ -30,7 +30,7 @@ function AddTask() {
         <input
           type="checkbox"
           value={reminder}
-          onChange={(e) => setReminder(e.target.value)}
+          onChange={(e) => setReminder(e.currentTarget.checked)}
         />
       </div>
 
